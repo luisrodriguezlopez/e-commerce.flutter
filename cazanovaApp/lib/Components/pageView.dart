@@ -17,7 +17,7 @@ class Sliders extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        height: 100,
+        height: 150,
         width: MediaQuery.of(context).size.width,
         color: Colors.brown,
         child: ListView(
@@ -27,12 +27,12 @@ class Sliders extends StatelessWidget {
               Row(children: [
                 Container(
                   width: MediaQuery.of(context).size.width * 2,
-                  height: 100,
+                  height: 150,
                   color: Colors.yellow,
                 ),
                 Container(
                   width: MediaQuery.of(context).size.width * 2,
-                  height: 100,
+                  height: 150,
                   color: Colors.pink,
                 )
               ]),
